@@ -6,21 +6,6 @@ import Windows from './components/Windows';
 import General from './components/General';
 
 function App() {
-
-  // Cadena con datos del navegador cliente
-  // let cadena = navigator.userAgent;
-  // Esta es la palabra a buscar
-  // let termino = "Android";
-  // let termino1 = "Mac";
-  // let termino2 = "Windows";
-  // Buscar la palabra en la cadena
-  // let posicion = cadena.indexOf(termino);
-  // let posicion1 = cadena.indexOf(termino1);
-  // let posicion2 = cadena.indexOf(termino2);
-
-  // console.log(cadena.toLocaleLowerCase().match(/android/));
-
-
   return (
     navigator.userAgent.toLocaleLowerCase().match(/android/)
       ?
